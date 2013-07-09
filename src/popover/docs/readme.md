@@ -17,6 +17,7 @@ will display:
   `tooltip` directive for supported values.
 - `popover-append-to-body`: Should the tooltip be appended to `$body` instead of
   the parent element?
+- `popover-html-unsafe`: To add HTML-Content to the popover body.
 
 The popover directives require the `$position` service.
 
