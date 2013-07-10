@@ -20,7 +20,7 @@ angular.module( 'ui.bootstrap.popover', [ 'ui.bootstrap.tooltip' ] )
   return {
     restrict: 'E',
     replace: true,
-    scope: { content: '@', placement: '@', animation: '&', isOpen: '&' },
+    scope: { title: '@', content: '@', placement: '@', animation: '&', isOpen: '&' },
     templateUrl: 'template/popover/popover-html-unsafe-popup.html'
   };
 })
